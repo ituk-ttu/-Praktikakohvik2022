@@ -50,11 +50,13 @@ nav .container-countdown div{
 
 @media all and (max-width: 700px){
 	nav{
-		height: 60px;
+		height: 55px;
 	}
 
 	.container-countdown div{
 		width: 45px;
+		height: 15px;
+		padding-bottom: 7px;
 	}
 
 	nav h2{
