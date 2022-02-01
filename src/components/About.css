@@ -1,0 +1,10 @@
+.container-about{
+    column-count: 2;
+	column-gap: 40px;
+}
+
+@media all and (max-width: 700px){
+    .container-about{
+		column-count: 1;
+	}
+}

@@ -1,0 +1,96 @@
+{
+    "et": {
+        "countDown": {
+            "day": "PÄEVA",
+            "hour": "TUNDI",
+            "minute": "MINUTIT",
+            "second": "SEKUNDIT"
+        },
+        "header": {
+            "date": "23. MÄRTS | 12:00 - 16:00 TalTechi aula"
+        },
+        "about": {
+            "aboutTitle": "ÜRITUSEST",
+            "aboutContent": {
+                "firstHalf": "Praktikakohvik on TalTechi tudengitele suunatud infopäev, kus kohtuvad ettevõtete esindajad ja tulevased praktikandid. Huvilistel on võimalus küsida spetsialistidelt nende tööd puudutavaid küsimusi ning lähemalt tutvuda oma potentsiaalsete tööandjatega.",
+                "secondHalf": "PS! Praktikakohvik on eelkõige suunatud IT-tudengitele, kuid ka teiste teaduskondade üliõpilased võivad leida enda jaoks midagi huvitavat. Üritust korraldab IT-teaduskonna üliõpilaskogu."
+            }
+        },
+        "firms":{
+            "firmsTitle": "OSALEVAD FIRMAD:",
+            "map": "aula"
+        },
+        "questions": {
+            "questionTitle": "MIDA KÜSIDA?",
+            "questionContent": {
+                "info": "Siin on mõned näited küsimustest, mida esitada tööandjatele:",
+                "Question1": "• Milliseid oskusi on vaja, et mingile kohale kandideerida?",
+                "Question2": "• Milliseid tehnoloogiad firmas kasutatakse?",
+                "Question3": "• Mida oodata palga suhtes?",
+                "Question4": "• Milline näeb välja kontori igapäev?",
+                "Question5": "• Milline on töökoormus?",
+                "Question6": "• Kui paindlik on tudengina tööl käimise juures graafik või koormus?",
+                "Question7": "• Millised arenemisvõimalused ettevõttes on? Kas pakutakse mingeid lisakoolitusi?"
+            }
+        },
+        "firmList": {
+            "Guide": "Vajuta firma nimele, et näha infot.",
+            "Undefined": "Kuulutame peagi välja ettevõtte...",
+            "A_dcash": "Kirjeldus lisatakse peagi...",
+            "ArtecDesign": "Kirjeldus lisatakse peagi...",
+            "BaitPartner": "Kirjeldus lisatakse peagi...",
+            "Devtailor": "Kirjeldus lisatakse peagi...",
+            "Helmes": "Kirjeldus lisatakse peagi...",
+            "LumavCommerce": "Kirjeldus lisatakse peagi...",
+            "SEB": "Kirjeldus lisatakse peagi...",
+            "Swedbank": "Kirjeldus lisatakse peagi..."
+        }
+    },
+    "en": {
+        "countDown": {
+            "day": "DAYS",
+            "hour": "HOURS",
+            "minute": "MINUTS",
+            "second": "SECONDS"
+        },
+        "header": {
+            "date": "23. MARCH | 12:00 - 16:00 TalTech assembly hall"
+        },
+        "about": {
+            "aboutTitle": "ABOUT-EVENT",
+            "aboutContent": {
+                "firstHalf": "Internship Café is an information day for TalTech students, where the representatives of different companies and future interns meet. Those interested will have the opportunity to ask specialists about their job and get to know their potential employers.",
+                "secondHalf": "PS! Internship Café is primarily aimed at IT students, but students from other faculties can also find something of interest. The event is organized by The Student Council of the School of IT."
+            }
+        },
+        "firms":{
+            "firmsTitle": "PARTICIPATING COMPANIES:",
+            "map": "hall"
+        },
+        "questions": {
+            "questionTitle": "WHAT TO ASK?",
+            "questionContent": {
+                "info": "Here are some examples of questions to ask employers:",
+                "Question1": "• What skills are required to apply for a position?",
+                "Question2": "• What technologies are used in the company?",
+                "Question3": "• What to expect in terms of salary?",
+                "Question4": "• What does the daily work of the office look like?",
+                "Question5": "• What is the workload?",
+                "Question6": "• How flexible is the schedule or workload when working as a student?",
+                "Question7": "• What are the self-development opportunities in the company? Are there any additional trainings offered?"
+            }
+        },
+        "firmList": {
+            "Guide": "Press on a firms name to view info.",
+            "Undefined": "Announcing the firm soon...",
+            "A_dcash": "Description will be added soon...",
+            "ArtecDesign": "Description will be added soon...",
+            "BaitPartner": "Description will be added soon...",
+            "Devtailor": "Description will be added soon...",
+            "Helmes": "Description will be added soon...",
+            "LumavCommerce": "Description will be added soon...",
+            "SEB": "Description will be added soon...",
+            "Swedbank": "Description will be added soon..."
+        }
+    }
+}
