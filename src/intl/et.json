@@ -7,14 +7,12 @@
             "second": "SEKUNDIT"
         },
         "header": {
+            "info": "Uus firma kirjeldus! Helmes",
             "date": "23. MÄRTS | 12:00 - 16:00 TalTechi aula"
         },
         "about": {
             "aboutTitle": "ÜRITUSEST",
-            "aboutContent": {
-                "firstHalf": "Praktikakohvik on TalTechi tudengitele suunatud infopäev, kus kohtuvad ettevõtete esindajad ja tulevased praktikandid. Huvilistel on võimalus küsida spetsialistidelt nende tööd puudutavaid küsimusi ning lähemalt tutvuda oma potentsiaalsete tööandjatega.",
-                "secondHalf": "PS! Praktikakohvik on eelkõige suunatud IT-tudengitele, kuid ka teiste teaduskondade üliõpilased võivad leida enda jaoks midagi huvitavat. Üritust korraldab IT-teaduskonna üliõpilaskogu."
-            }
+            "aboutContent": "Praktikakohvik on TalTechi tudengitele suunatud infopäev, kus kohtuvad parimate kohalike ja rahvusvaheliste ettevõtete esindajad ja tulevased praktikandid. Huvilistel on võimalus küsida spetsialistidelt nende tööd puudutavaid küsimusi ning lähemalt tutvuda oma potentsiaalsete tööandjatega.\\n\\nPS! Praktikakohvik on eelkõige suunatud IT-tudengitele, kuid ka teiste teaduskondade üliõpilased võivad leida enda jaoks midagi huvitavat. Üritust korraldab IT-teaduskonna üliõpilaskogu.\\n\\nKõik osalejad peavad sisenemisel esitama COVID-tõendi koos isikut tõendava dokumendiga, samuti on kohustuslik kanda maski!"
         },
         "firms":{
             "firmsTitle": "OSALEVAD FIRMAD:",
@@ -33,6 +31,9 @@
                 "Question7": "• Millised arenemisvõimalused ettevõttes on? Kas pakutakse mingeid lisakoolitusi?"
             }
         },
+        "FBlink":{
+            "title": "Mine vaata Facebooki üritust:"
+        },
         "firmList": {
             "Guide": "Vajuta firma nimele, et näha infot.",
             "Undefined": "Kuulutame peagi välja ettevõtte...",
@@ -40,7 +41,7 @@
             "ArtecDesign": "Kirjeldus lisatakse peagi...",
             "BaitPartner": "Kirjeldus lisatakse peagi...",
             "Devtailor": "Kirjeldus lisatakse peagi...",
-            "Helmes": "Kirjeldus lisatakse peagi...",
+            "Helmes": "Helmes on globaalne digiinnovatsiooni partner.\\n\\nEesti digiriik on vaid üks neist üleilmsetest edulugudest, mida oleme aidanud luua. Kui tahad kaasa lüüa vastutusrikaste ja tõeliselt põnevate tarkvaratoodete arendamises, võta meiega ühendust.\\n\\nSoovime olla parim partner arenguks nii oma klientidele kui ka töötajatele. Kui liitud meiega, püüame olla hea partner ka Sulle - et võiksid kunagi naeratades Helmeses veedetud ajale mõelda ja leida, et tegemist oli Sinu parima töökohaga. Kohaga, kus said avastada oma tõelise potentsiaali ja teoks teha kõige julgemad eesmärgid. See Sinu naeratus kauges tulevikus on põhjus, miks püüame luua töökeskkonda, mis esitab inspireerivaid väljakutseid, aga on samal ajal hooliv ja toetav. Mida me selle all täpselt silmas peame?\\n\\nKeskendume küll erialasele arengule, aga Helmeses töötamine tähendab ka tunnet, et Su elu on igas mõttes mõnusas tasakaalus. Tasakaalustame tööalaseid väljakutseid tervisthoidva tööviisi, eheda meeskonnavaimu ja kogenud mentorite toega. Lühidalt - Helmesega liitudes ühined inspireerivate inimestega, kes arendavad igapäevaselt globaalseid tarkvaratooteid. Lisaks aitad luua parimat ettevõtet, kus just Sinul on hea töötada ja areneda.\\n\\nEmail: info@helmes.com\\nKoduleht: https://www.helmes.com/",
             "LumavCommerce": "Kirjeldus lisatakse peagi...",
             "SEB": "Kirjeldus lisatakse peagi...",
             "Swedbank": "Kirjeldus lisatakse peagi..."
@@ -54,14 +55,12 @@
             "second": "SECONDS"
         },
         "header": {
+            "info": "New firm's description! Helmes",
             "date": "23. MARCH | 12:00 - 16:00 TalTech assembly hall"
         },
         "about": {
             "aboutTitle": "ABOUT-EVENT",
-            "aboutContent": {
-                "firstHalf": "Internship Café is an information day for TalTech students, where the representatives of different companies and future interns meet. Those interested will have the opportunity to ask specialists about their job and get to know their potential employers.",
-                "secondHalf": "PS! Internship Café is primarily aimed at IT students, but students from other faculties can also find something of interest. The event is organized by The Student Council of the School of IT."
-            }
+            "aboutContent": "Internship Café is an information day for TalTech students, where the best local and international companies' representatives and future interns meet. Those interested will have the opportunity to ask specialists about their job and get to know their potential employers.\\n\\nPS! Internship Café is primarily aimed at IT students, but students from other faculties can also find something of interest. The event is organized by The Student Council of the School of IT.\\n\\nUpon entry, all participants must show their COVID-pass along with their identification document. Additionally, wearing a mask is required!"
         },
         "firms":{
             "firmsTitle": "PARTICIPATING COMPANIES:",
@@ -80,6 +79,9 @@
                 "Question7": "• What are the self-development opportunities in the company? Are there any additional trainings offered?"
             }
         },
+        "FBlink":{
+            "title": "Go see the Facebook event:"
+        },
         "firmList": {
             "Guide": "Press on a firms name to view info.",
             "Undefined": "Announcing the firm soon...",
@@ -87,7 +89,7 @@
             "ArtecDesign": "Description will be added soon...",
             "BaitPartner": "Description will be added soon...",
             "Devtailor": "Description will be added soon...",
-            "Helmes": "Description will be added soon...",
+            "Helmes": "Helmes is an experienced digital innovation partner with global impact.\\n\\nWe strive to be the best partner for growth to our people as well as to our customers. It means that  when you join us, we also aim to be the best partner to you. So that in the far distant future you can think back on your time at Helmes with a smile and say that it really was the best place you worked. A place where you could unleash your full potential, and bring your ambitious goals to life. That special smile of yours is the reason why we strive to create the best work environment- one that's both challenging (in a good way) and supportive. What, you may be wondering, do we mean by that?\\n\\nOur work culture focuses on your growth as a professional, but being your best self in Helmes also means feeling that your life is well-balanced and healthy in every aspect. To us, it's crucial to balance challenges with kind and considerate work routines, genuine team spirit and a strong network of experts and mentors to help you.\\n\\nIn short, by joining Helmes you'll become part of a great team of talented people who are proud to develop impactful software products all over the world. And you'll be helping us in creating the best place for people like you to work and grow.\\n\\nEmail: info@helmes.com\\nHome page: https://www.helmes.com/",
             "LumavCommerce": "Description will be added soon...",
             "SEB": "Description will be added soon...",
             "Swedbank": "Description will be added soon..."

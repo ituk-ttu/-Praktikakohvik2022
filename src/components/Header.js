@@ -1,13 +1,20 @@
 import './Header.css';
 import Logo from '../img/svg/Praktikakohvik_käed.svg';
+import infoSign from '../img/png/infoSign.png'
 import { useContext } from "react";
 import { srcContext } from "../SrcContext.js";
 
 const Header = () => {
     const { language } = useContext(srcContext);
+    const dateNow = new Date().getTime();
+    const countDateInfo = new Date('February 12, 2022 00:00:00');
 
     return (
         <header>
+            <div style={countDateInfo - dateNow < 0 ? {visibility: 'hidden'} : {visibility: 'visible'}} className="info">
+                <img src={infoSign} alt='info sign'></img>
+                <h2>{language.header.info}</h2>
+            </div>
             <h4>PRAKTIKA-<br/>KOHVIK</h4>
             <h3>{language.header.date}</h3>
 

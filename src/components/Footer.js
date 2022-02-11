@@ -18,9 +18,9 @@ const Footer = () => {
 					<h2 id="loc">Akadeemia tee 15a,<br/>ICT-361</h2>
 				</div>
 				<div id="links">
-					<a href="https://www.facebook.com/ituk.taltech/"><img src={facebookLogo} alt="ITÜK Facebook"/></a>
-					<a href="https://www.instagram.com/ituk.taltech/?hl=en"><img src={instagramLogo} alt="ITÜK Instagram"/></a>
-					<a href="https://ituk.ee/"><img src={ITUKLogo} alt="ITÜK Veebileht"/></a>
+					<a href="https://www.facebook.com/ituk.taltech/" target="_blank"><img src={facebookLogo} alt="ITÜK Facebook"/></a>
+					<a href="https://www.instagram.com/ituk.taltech/?hl=en" target="_blank"><img src={instagramLogo} alt="ITÜK Instagram"/></a>
+					<a href="https://ituk.ee/" target="_blank"><img src={ITUKLogo} alt="ITÜK Veebileht"/></a>
 				</div>
 			</section>
 			<hr/>  

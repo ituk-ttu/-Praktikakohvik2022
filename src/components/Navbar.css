@@ -24,8 +24,8 @@ nav .container-countdown div{
 .container-nav img{
 	cursor: pointer;
 	position: fixed;
-	top: 13px;
-	left: 20px;
+	top: 11px;
+	left: 25px;
 	z-index: 2;
 	width: 30px;
 	height: auto;

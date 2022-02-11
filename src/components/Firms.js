@@ -11,10 +11,10 @@ const Firms = () => {
     const [logosStyle, setLogosStyle] = useState({height: "0px", visibility: "hidden"});
 
     function click(clickedButton) {
-		var firmsName = clickedButton.target.className;
+		var firmsName = clickedButton.currentTarget.classList.value;
 		firmsName.length === 1 ? setFirmsText("Undefined") : setFirmsText(firmsName);
 		RemoveStyles(setBorderStyle, setTextStyle, setLogosStyle);
-		clickedButton.target.style.backgroundColor = '#FF0063';
+		clickedButton.currentTarget.style.backgroundColor = '#FF0063';
     }
 
     return (
@@ -22,17 +22,17 @@ const Firms = () => {
             <section className="firms-list">
 				<h3>{language.firms.firmsTitle}</h3>
 				<ul>
-					<li><button onFocus={(e) => click(e)} className="A_dcash"><h2>Adcash</h2></button></li>
-				    <li><button onFocus={(e) => click(e)} className="ArtecDesign"><h2>Artec Design</h2></button></li>
-				    <li><button onFocus={(e) => click(e)} className="BaitPartner"><h2>Bait Partner OÜ</h2></button></li>
-				    <li><button onFocus={(e) => click(e)} className="Devtailor"><h2>Devtailor</h2></button></li>
-				    <li><button onFocus={(e) => click(e)} className="Helmes"><h2>Helmes</h2></button></li>
-				    <li><button onFocus={(e) => click(e)} className="LumavCommerce"><h2>Lumav Commerce OÜ</h2></button></li>
-				    <li><button onFocus={(e) => click(e)} className="SEB"><h2>SEB Pank</h2></button></li>
-				    <li><button onFocus={(e) => click(e)} className="Swedbank"><h2>Swedbank</h2></button></li>
-				    <li><button onFocus={(e) => click(e)} className="I"><h2>...</h2></button></li>
-					<li><button onFocus={(e) => click(e)} className="J" id='firstFade'><h2>...</h2></button></li>
-					<li><button onFocus={(e) => click(e)} className="K" id='secondFade'><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="A_dcash"><h2>Adcash</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="ArtecDesign"><h2>Artec Design</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="BaitPartner"><h2>Bait Partner OÜ</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="Devtailor"><h2>Devtailor</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="Helmes"><h2>Helmes</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="LumavCommerce"><h2>Lumav Commerce OÜ</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="SEB"><h2>SEB Pank</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="Swedbank"><h2>Swedbank</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="I"><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="J" id='firstFade'><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="K" id='secondFade'><h2>...</h2></button></li>
 				</ul>
 			</section>
 
@@ -43,7 +43,7 @@ const Firms = () => {
 					<div style={logosStyle} className='image-container'>
 						<img src={require("../img/firms/" + (firmsText === 'Guide' ? 'Undefined' : firmsText) + "-logo.png")} alt="firmsLogo"/>
 					</div>
-					<h2 style={textStyle}>{language.firmList[firmsText]}</h2>
+					<h2 style={textStyle}>{language.firmList[firmsText].replaceAll('\\n', '\n')}</h2>
 				</section>
 			</div>
         </div>

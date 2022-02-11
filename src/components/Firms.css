@@ -63,6 +63,7 @@ ul h2, ul button, ul{
 	text-align: justify;
 	font-size: 20px;
 	padding-bottom: 50px;
+	white-space: pre-wrap;
 }
 
 .image-container{
