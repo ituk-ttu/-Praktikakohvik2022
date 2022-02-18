@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.343ac668.css",
+    "main.css": "/static/css/main.c4e441c0.css",
     "main.js": "/static/js/main.c32fbc1e.js",
     "static/js/787.25393b4e.chunk.js": "/static/js/787.25393b4e.chunk.js",
     "static/media/praktikakohvik2019.jpg": "/static/media/praktikakohvik2019.ee9bb563fd78b38b93d6.jpg",
@@ -27,12 +27,12 @@
     "static/media/facebook.svg": "/static/media/facebook.8d7f8611e0ec8ad941617479d7498bce.svg",
     "static/media/ituk.svg": "/static/media/ituk.3137fddb03fcd53502124b55072a5969.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.74cbbebd84c14464737336f23c4d96a4.svg",
-    "main.343ac668.css.map": "/static/css/main.343ac668.css.map",
+    "main.c4e441c0.css.map": "/static/css/main.c4e441c0.css.map",
     "main.c32fbc1e.js.map": "/static/js/main.c32fbc1e.js.map",
     "787.25393b4e.chunk.js.map": "/static/js/787.25393b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.343ac668.css",
+    "static/css/main.c4e441c0.css",
     "static/js/main.c32fbc1e.js"
   ]
 }
