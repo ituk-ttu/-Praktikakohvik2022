@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4e441c0.css",
-    "main.js": "/static/js/main.c32fbc1e.js",
+    "main.css": "/static/css/main.1cf05dbd.css",
+    "main.js": "/static/js/main.cd024d3f.js",
     "static/js/787.25393b4e.chunk.js": "/static/js/787.25393b4e.chunk.js",
     "static/media/praktikakohvik2019.jpg": "/static/media/praktikakohvik2019.ee9bb563fd78b38b93d6.jpg",
     "static/media/FBEvent.PNG": "/static/media/FBEvent.42b56cf49eef95597a13.PNG",
     "static/media/Praktikakohvik_käed.svg": "/static/media/Praktikakohvik_käed.a7a272c95af1722735c8fd11b69c53ba.svg",
-    "static/media/Swedbank-logo.png": "/static/media/Swedbank-logo.27af08ce25a63b651182.png",
+    "static/media/Swedbank-logo.png": "/static/media/Swedbank-logo.c8fbbde14b24f0a4982c.png",
     "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
     "static/media/Gilroy-Light.otf": "/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
     "static/media/hall.png": "/static/media/hall.b260543b047a454baca3.png",
     "static/media/aula.png": "/static/media/aula.d71008ce6d2aec78c6df.png",
-    "static/media/LumavCommerce-logo.png": "/static/media/LumavCommerce-logo.c78a60081c09fae795d4.png",
-    "static/media/Devtailor-logo.png": "/static/media/Devtailor-logo.94f97d2a16437efc7837.png",
-    "static/media/Helmes-logo.png": "/static/media/Helmes-logo.d300d7a119c037840f52.png",
+    "static/media/Devtailor-logo.png": "/static/media/Devtailor-logo.c2b5ac0adbd8ec225469.png",
+    "static/media/LumavCommerce-logo.png": "/static/media/LumavCommerce-logo.1cd1d0d69f4c15bfd5cc.png",
     "static/media/BaitPartner-logo.png": "/static/media/BaitPartner-logo.d130a0aeb753bb017b18.png",
-    "static/media/ArtecDesign-logo.png": "/static/media/ArtecDesign-logo.8aacc8f6f6380b63f245.png",
-    "static/media/A_dcash-logo.png": "/static/media/A_dcash-logo.7e6a20ad9eb1fed554f5.png",
+    "static/media/ArtecDesign-logo.png": "/static/media/ArtecDesign-logo.fac6c9b7699668578c67.png",
+    "static/media/A_dcash-logo.png": "/static/media/A_dcash-logo.32fb138705a7c779ffa5.png",
     "static/media/SEB-logo.png": "/static/media/SEB-logo.9b2b08b499ebfb03b642.png",
+    "static/media/Helmes-logo.png": "/static/media/Helmes-logo.affa471a204fc27959bd.png",
     "static/media/ituktaltechlogo.svg": "/static/media/ituktaltechlogo.2c0ed6a5fa08a302f825d2c3e3112556.svg",
     "static/media/en_lipp.svg": "/static/media/en_lipp.099e9374154e4a21c076.svg",
     "static/media/et_lipp.svg": "/static/media/et_lipp.ec8f4e9e09baa2622c51.svg",
@@ -27,12 +27,12 @@
     "static/media/facebook.svg": "/static/media/facebook.8d7f8611e0ec8ad941617479d7498bce.svg",
     "static/media/ituk.svg": "/static/media/ituk.3137fddb03fcd53502124b55072a5969.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.74cbbebd84c14464737336f23c4d96a4.svg",
-    "main.c4e441c0.css.map": "/static/css/main.c4e441c0.css.map",
-    "main.c32fbc1e.js.map": "/static/js/main.c32fbc1e.js.map",
+    "main.1cf05dbd.css.map": "/static/css/main.1cf05dbd.css.map",
+    "main.cd024d3f.js.map": "/static/js/main.cd024d3f.js.map",
     "787.25393b4e.chunk.js.map": "/static/js/787.25393b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4e441c0.css",
-    "static/js/main.c32fbc1e.js"
+    "static/css/main.1cf05dbd.css",
+    "static/js/main.cd024d3f.js"
   ]
 }
