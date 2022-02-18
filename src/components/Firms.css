@@ -69,11 +69,12 @@ ul h2, ul button, ul{
 .image-container{
 	margin-left: auto;
     margin-right: auto;
-	margin-bottom: 5px;
-	width: 210px;
-	height: 66.5px;
+	margin-bottom: 20px;
+	width: 270px;
+	height: 70.5px;
 	border: solid;
-	border-width: 2px;
+	border-left: solid 15px;
+	border-right: solid 15px;
 	border-color: white;
 	background-color:  white;
 	display: flex;
