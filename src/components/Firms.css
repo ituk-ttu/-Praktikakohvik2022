@@ -60,7 +60,7 @@ ul h2, ul button, ul{
 .firms-info h2{
 	padding-left: 2px;
 	padding-right: 2px;
-	text-align: justify;
+	text-align: left;
 	font-size: 20px;
 	padding-bottom: 50px;
 	white-space: pre-wrap;
@@ -128,7 +128,6 @@ ul h2, ul button, ul{
 	}
 
 	.firms-info h2{
-		text-align: left;
 		font-size: 15px;
 	}
 
