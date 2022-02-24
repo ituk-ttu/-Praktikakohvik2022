@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec604d8b.css",
-    "main.js": "/static/js/main.c30ee3ad.js",
+    "main.css": "/static/css/main.84e54f6d.css",
+    "main.js": "/static/js/main.cc16bddc.js",
     "static/js/787.25393b4e.chunk.js": "/static/js/787.25393b4e.chunk.js",
     "static/media/praktikakohvik2019.jpg": "/static/media/praktikakohvik2019.ee9bb563fd78b38b93d6.jpg",
     "static/media/FBEvent.PNG": "/static/media/FBEvent.42b56cf49eef95597a13.PNG",
@@ -27,12 +27,12 @@
     "static/media/facebook.svg": "/static/media/facebook.8d7f8611e0ec8ad941617479d7498bce.svg",
     "static/media/ituk.svg": "/static/media/ituk.3137fddb03fcd53502124b55072a5969.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.74cbbebd84c14464737336f23c4d96a4.svg",
-    "main.ec604d8b.css.map": "/static/css/main.ec604d8b.css.map",
-    "main.c30ee3ad.js.map": "/static/js/main.c30ee3ad.js.map",
+    "main.84e54f6d.css.map": "/static/css/main.84e54f6d.css.map",
+    "main.cc16bddc.js.map": "/static/js/main.cc16bddc.js.map",
     "787.25393b4e.chunk.js.map": "/static/js/787.25393b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec604d8b.css",
-    "static/js/main.c30ee3ad.js"
+    "static/css/main.84e54f6d.css",
+    "static/js/main.cc16bddc.js"
   ]
 }
