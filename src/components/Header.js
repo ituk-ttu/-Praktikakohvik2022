@@ -7,7 +7,7 @@ import { srcContext } from "../SrcContext.js";
 const Header = () => {
     const { language } = useContext(srcContext);
     const dateNow = new Date().getTime();
-    const countDateInfo = new Date('February 25, 2022 00:00:00');
+    const countDateInfo = new Date('February 25, 2022 22:00:00');
 
     return (
         <header>

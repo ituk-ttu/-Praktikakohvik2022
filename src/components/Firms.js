@@ -26,13 +26,14 @@ const Firms = () => {
 				    <li><button onClick={(e) => click(e)} className="ArtecDesign"><h2>Artec Design</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="BaitPartner"><h2>Bait Partner OÜ</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Devtailor"><h2>Devtailor</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="EestiEnergia" id='Added'><h2>Eesti Energia ({language.firms.new})</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Helmes"><h2>Helmes</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="LumavCommerce"><h2>Lumav Commerce OÜ</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="SEB"><h2>SEB Pank</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Swedbank"><h2>Swedbank</h2></button></li>
-				    <li><button onClick={(e) => click(e)} className="I"><h2>...</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="J" id='firstFade'><h2>...</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="K" id='secondFade'><h2>...</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="J"><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="K" id='firstFade'><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="L" id='secondFade'><h2>...</h2></button></li>
 				</ul>
 			</section>
 

@@ -34,6 +34,10 @@
 	padding-right: 0;
 }
 
+#Added{
+	background-color: #ff006267;
+}
+
 #firstFade{
 	opacity: 0.5;
 }
