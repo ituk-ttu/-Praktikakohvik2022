@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.84e54f6d.css",
-    "main.js": "/static/js/main.cc16bddc.js",
+    "main.css": "/static/css/main.b96c5c0e.css",
+    "main.js": "/static/js/main.121e2b40.js",
     "static/js/787.25393b4e.chunk.js": "/static/js/787.25393b4e.chunk.js",
     "static/media/praktikakohvik2019.jpg": "/static/media/praktikakohvik2019.ee9bb563fd78b38b93d6.jpg",
     "static/media/FBEvent.PNG": "/static/media/FBEvent.42b56cf49eef95597a13.PNG",
@@ -12,6 +12,7 @@
     "static/media/hall.png": "/static/media/hall.b260543b047a454baca3.png",
     "static/media/aula.png": "/static/media/aula.d71008ce6d2aec78c6df.png",
     "static/media/Devtailor-logo.png": "/static/media/Devtailor-logo.c2b5ac0adbd8ec225469.png",
+    "static/media/EestiEnergia-logo.png": "/static/media/EestiEnergia-logo.a8d294c5cf18dfa503e6.png",
     "static/media/LumavCommerce-logo.png": "/static/media/LumavCommerce-logo.1cd1d0d69f4c15bfd5cc.png",
     "static/media/BaitPartner-logo.png": "/static/media/BaitPartner-logo.d130a0aeb753bb017b18.png",
     "static/media/ArtecDesign-logo.png": "/static/media/ArtecDesign-logo.fac6c9b7699668578c67.png",
@@ -27,12 +28,12 @@
     "static/media/facebook.svg": "/static/media/facebook.8d7f8611e0ec8ad941617479d7498bce.svg",
     "static/media/ituk.svg": "/static/media/ituk.3137fddb03fcd53502124b55072a5969.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.74cbbebd84c14464737336f23c4d96a4.svg",
-    "main.84e54f6d.css.map": "/static/css/main.84e54f6d.css.map",
-    "main.cc16bddc.js.map": "/static/js/main.cc16bddc.js.map",
+    "main.b96c5c0e.css.map": "/static/css/main.b96c5c0e.css.map",
+    "main.121e2b40.js.map": "/static/js/main.121e2b40.js.map",
     "787.25393b4e.chunk.js.map": "/static/js/787.25393b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84e54f6d.css",
-    "static/js/main.cc16bddc.js"
+    "static/css/main.b96c5c0e.css",
+    "static/js/main.121e2b40.js"
   ]
 }
