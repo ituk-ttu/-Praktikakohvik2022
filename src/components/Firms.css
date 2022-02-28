@@ -71,6 +71,7 @@ ul h2, ul button, ul{
 }
 
 .image-container{
+	border-radius: 7px;
 	margin-left: auto;
     margin-right: auto;
 	margin-bottom: 20px;
