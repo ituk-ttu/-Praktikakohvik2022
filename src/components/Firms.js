@@ -25,16 +25,17 @@ const Firms = () => {
 					<li><button onClick={(e) => click(e)} className="A_dcash"><h2>Adcash</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="ArtecDesign"><h2>Artec Design</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="BaitPartner"><h2>Bait Partner OÜ</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="Cybernetica" id='Added'><h2>Cybernetica AS ({language.firms.new})</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="Cybernetica"><h2>Cybernetica AS</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Devtailor"><h2>Devtailor</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="EestiEnergia"><h2>Eesti Energia</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="Finestmedia" id='Added'><h2>Finestmedia ({language.firms.new})</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Helmes"><h2>Helmes</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="LumavCommerce"><h2>Lumav Commerce OÜ</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="SEB"><h2>SEB Pank</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Swedbank"><h2>Swedbank</h2></button></li>
-				    <li><button onClick={(e) => click(e)} className="K"><h2>...</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="L" id='firstFade'><h2>...</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="M" id='secondFade'><h2>...</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="L"><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="M" id='firstFade'><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="N" id='secondFade'><h2>...</h2></button></li>
 				</ul>
 			</section>
 
