@@ -28,9 +28,9 @@ const Firms = () => {
 					<li><button onClick={(e) => click(e)} className="Cybernetica"><h2>Cybernetica AS</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Devtailor"><h2>Devtailor</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="EestiEnergia"><h2>Eesti Energia</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="Finestmedia" id='Added'><h2>Finestmedia ({language.firms.new})</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="Finestmedia"><h2>Finestmedia</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Helmes"><h2>Helmes</h2></button></li>
-				    <li><button onClick={(e) => click(e)} className="LumavCommerce"><h2>Lumav Commerce OÜ</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="LumavCommerce" id='Added'><h2>Lumav Commerce OÜ ({language.firms.new})</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="SEB"><h2>SEB Pank</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Swedbank"><h2>Swedbank</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="L"><h2>...</h2></button></li>
