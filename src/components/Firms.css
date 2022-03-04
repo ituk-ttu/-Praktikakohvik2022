@@ -7,7 +7,7 @@
 
 .firms-list{
 	float: left;
-	max-width: 195px;
+	max-width: 212px;
 	margin: 0;
 }
 
@@ -75,8 +75,9 @@ ul h2, ul button, ul{
 	margin-left: auto;
     margin-right: auto;
 	margin-bottom: 20px;
-	width: 290px;
-	height: 75.7px;
+	width: 100%;
+	max-width: 300px;
+	aspect-ratio: 3.5 / 1;
 	border: solid;
 	border-left: solid 15px;
 	border-right: solid 15px;
@@ -121,8 +122,9 @@ ul h2, ul button, ul{
 	}
 
 	.image-container{
-		width: 160px;
-		height: 50.6px;
+		width: 80%;
+		max-width: 250px;
+		aspect-ratio: 3.5 / 1;
 	}
 
 	.firms-info{
