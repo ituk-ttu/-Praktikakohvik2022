@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1897aa7.css",
-    "main.js": "/static/js/main.8ee7528b.js",
+    "main.css": "/static/css/main.cd18f68d.css",
+    "main.js": "/static/js/main.6f61ad44.js",
     "static/js/787.25393b4e.chunk.js": "/static/js/787.25393b4e.chunk.js",
     "static/media/praktikakohvik2019.jpg": "/static/media/praktikakohvik2019.ee9bb563fd78b38b93d6.jpg",
     "static/media/PowerUp-logo.png": "/static/media/PowerUp-logo.711364d12aa37aa6c4d1.png",
@@ -25,6 +25,7 @@
     "static/media/Statistikaamet-logo.png": "/static/media/Statistikaamet-logo.28cd9a8ad2b99228f8ec.png",
     "static/media/SpinTEK-logo.png": "/static/media/SpinTEK-logo.d20341cb3e019fb26a04.png",
     "static/media/SEB-logo.png": "/static/media/SEB-logo.9b2b08b499ebfb03b642.png",
+    "static/media/Fujitsu-logo.png": "/static/media/Fujitsu-logo.78d689cadf3a52259128.png",
     "static/media/Helmes-logo.png": "/static/media/Helmes-logo.affa471a204fc27959bd.png",
     "static/media/ituktaltechlogo.svg": "/static/media/ituktaltechlogo.2c0ed6a5fa08a302f825d2c3e3112556.svg",
     "static/media/en_lipp.svg": "/static/media/en_lipp.099e9374154e4a21c076.svg",
@@ -35,12 +36,12 @@
     "static/media/facebook.svg": "/static/media/facebook.8d7f8611e0ec8ad941617479d7498bce.svg",
     "static/media/ituk.svg": "/static/media/ituk.3137fddb03fcd53502124b55072a5969.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.74cbbebd84c14464737336f23c4d96a4.svg",
-    "main.b1897aa7.css.map": "/static/css/main.b1897aa7.css.map",
-    "main.8ee7528b.js.map": "/static/js/main.8ee7528b.js.map",
+    "main.cd18f68d.css.map": "/static/css/main.cd18f68d.css.map",
+    "main.6f61ad44.js.map": "/static/js/main.6f61ad44.js.map",
     "787.25393b4e.chunk.js.map": "/static/js/787.25393b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1897aa7.css",
-    "static/js/main.8ee7528b.js"
+    "static/css/main.cd18f68d.css",
+    "static/js/main.6f61ad44.js"
   ]
 }
