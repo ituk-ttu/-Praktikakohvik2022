@@ -79,7 +79,7 @@ header h3:not(.countdown h3){
 }
 
 .info:hover{
-	width: 375px;
+	width: 305px;
 }
 
 .info:hover h2{
@@ -147,7 +147,7 @@ header h3:not(.countdown h3){
 	}
 
 	.info:hover{
-		width: 280px;
+		width: 230px;
 	}
 
 	.info img{
