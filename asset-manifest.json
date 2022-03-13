@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.204a5ec2.css",
-    "main.js": "/static/js/main.a0a6849b.js",
+    "main.css": "/static/css/main.2b3ea05a.css",
+    "main.js": "/static/js/main.a4bd7eae.js",
     "static/js/787.25393b4e.chunk.js": "/static/js/787.25393b4e.chunk.js",
     "static/media/praktikakohvik2019.jpg": "/static/media/praktikakohvik2019.ee9bb563fd78b38b93d6.jpg",
     "static/media/PowerUp-logo.png": "/static/media/PowerUp-logo.711364d12aa37aa6c4d1.png",
@@ -18,6 +18,7 @@
     "static/media/EestiEnergia-logo.png": "/static/media/EestiEnergia-logo.cbf72a31fd584f45cf43.png",
     "static/media/Itestra-logo.png": "/static/media/Itestra-logo.0176bbf50695646e9a0b.png",
     "static/media/Devtailor-logo.png": "/static/media/Devtailor-logo.c2b5ac0adbd8ec225469.png",
+    "static/media/Finnair-logo.png": "/static/media/Finnair-logo.4852d7eea4e91772eec6.png",
     "static/media/Cybernetica-logo.png": "/static/media/Cybernetica-logo.10f745314f8de3a55116.png",
     "static/media/ArtecDesign-logo.png": "/static/media/ArtecDesign-logo.4ef0b8d45d8b64b9f73f.png",
     "static/media/LumavCommerce-logo.png": "/static/media/LumavCommerce-logo.1cd1d0d69f4c15bfd5cc.png",
@@ -37,12 +38,12 @@
     "static/media/facebook.svg": "/static/media/facebook.8d7f8611e0ec8ad941617479d7498bce.svg",
     "static/media/ituk.svg": "/static/media/ituk.3137fddb03fcd53502124b55072a5969.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.74cbbebd84c14464737336f23c4d96a4.svg",
-    "main.204a5ec2.css.map": "/static/css/main.204a5ec2.css.map",
-    "main.a0a6849b.js.map": "/static/js/main.a0a6849b.js.map",
+    "main.2b3ea05a.css.map": "/static/css/main.2b3ea05a.css.map",
+    "main.a4bd7eae.js.map": "/static/js/main.a4bd7eae.js.map",
     "787.25393b4e.chunk.js.map": "/static/js/787.25393b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.204a5ec2.css",
-    "static/js/main.a0a6849b.js"
+    "static/css/main.2b3ea05a.css",
+    "static/js/main.a4bd7eae.js"
   ]
 }
