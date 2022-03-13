@@ -23,7 +23,7 @@ const Firms = () => {
 				<h3>{language.firms.firmsTitle}</h3>
 				<ul>
 					<li><button onClick={(e) => click(e)} className="A_dcash"><h2>Adcash</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="Agileworks" id='Added'><h2>Agileworks ({language.firms.new})</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="Agileworks"><h2>Agileworks</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="ArtecDesign"><h2>Artec Design</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="BaitPartner"><h2>Bait Partner OÜ</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Cybernetica"><h2>Cybernetica AS</h2></button></li>
@@ -31,6 +31,7 @@ const Firms = () => {
 					<li><button onClick={(e) => click(e)} className="EestiEnergia"><h2>Eesti Energia</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Eleport"><h2>Eleport</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Finestmedia"><h2>Finestmedia</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="Finnair" id='Added'><h2>Finnair ({language.firms.new})</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Fujitsu"><h2>Fujitsu Estonia</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Itestra"><h2>Itestra</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="LumavCommerce"><h2>Lumav Commerce OÜ</h2></button></li>
@@ -40,9 +41,9 @@ const Firms = () => {
 					<li><button onClick={(e) => click(e)} className="Statistikaamet"><h2>Statistikaamet</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Swedbank"><h2>Swedbank</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Telia"><h2>Telia</h2></button></li>
-				    <li><button onClick={(e) => click(e)} className="R"><h2>...</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="S" id='firstFade'><h2>...</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="T" id='secondFade'><h2>...</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="S"><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="T" id='firstFade'><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="U" id='secondFade'><h2>...</h2></button></li>
 				</ul>
 			</section>
 
