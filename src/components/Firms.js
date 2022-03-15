@@ -31,10 +31,11 @@ const Firms = () => {
 					<li><button onClick={(e) => click(e)} className="EestiEnergia"><h2>Eesti Energia</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Eleport"><h2>Eleport</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Finestmedia"><h2>Finestmedia</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="Finnair" id='Added'><h2>Finnair ({language.firms.new})</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="Finnair"><h2>Finnair</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Fujitsu"><h2>Fujitsu Estonia</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Itestra"><h2>Itestra</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="LumavCommerce"><h2>Lumav Commerce OÜ</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="Netgroup" id='Added'><h2>Net Group ({language.firms.new})</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="PowerUp"><h2>Power Up Fuel Cells OÜ</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="SEB"><h2>SEB Pank</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="SpinTEK"><h2>Spin TEK</h2></button></li>
