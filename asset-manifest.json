@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.204a5ec2.css",
-    "main.js": "/static/js/main.2eb1459e.js",
+    "main.js": "/static/js/main.15ca8c63.js",
     "static/js/787.25393b4e.chunk.js": "/static/js/787.25393b4e.chunk.js",
     "static/media/praktikakohvik2019.jpg": "/static/media/praktikakohvik2019.ee9bb563fd78b38b93d6.jpg",
     "static/media/PowerUp-logo.png": "/static/media/PowerUp-logo.711364d12aa37aa6c4d1.png",
@@ -40,11 +40,11 @@
     "static/media/ituk.svg": "/static/media/ituk.3137fddb03fcd53502124b55072a5969.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.74cbbebd84c14464737336f23c4d96a4.svg",
     "main.204a5ec2.css.map": "/static/css/main.204a5ec2.css.map",
-    "main.2eb1459e.js.map": "/static/js/main.2eb1459e.js.map",
+    "main.15ca8c63.js.map": "/static/js/main.15ca8c63.js.map",
     "787.25393b4e.chunk.js.map": "/static/js/787.25393b4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.204a5ec2.css",
-    "static/js/main.2eb1459e.js"
+    "static/js/main.15ca8c63.js"
   ]
 }
