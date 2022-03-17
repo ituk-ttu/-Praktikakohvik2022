@@ -23,29 +23,29 @@ const Firms = () => {
 				<h3>{language.firms.firmsTitle}</h3>
 				<ul>
 					<li><button onClick={(e) => click(e)} className="A_dcash"><h2>Adcash</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="ADMInteractive" id='Added'><h2>ADM Interactive ({language.firms.new})</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Agileworks"><h2>Agileworks</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="ArtecDesign"><h2>Artec Design</h2></button></li>
-				    <li><button onClick={(e) => click(e)} className="BaitPartner"><h2>Bait Partner OÜ</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="Cybernetica"><h2>Cybernetica AS</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="BaitPartner"><h2>Bait Partner</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="Cybernetica"><h2>Cybernetica</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Devtailor"><h2>Devtailor</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="EestiEnergia"><h2>Eesti Energia</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Eleport"><h2>Eleport</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Finestmedia"><h2>Finestmedia</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Finnair"><h2>Finnair</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Fujitsu"><h2>Fujitsu Estonia</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="ITKasutajatugi" id='Added'><h2>TalTech IT Kasutajatugi ({language.firms.new})</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="ITKasutajatugi"><h2>TalTech IT Kasutajatugi</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Itestra"><h2>Itestra</h2></button></li>
-				    <li><button onClick={(e) => click(e)} className="LumavCommerce"><h2>Lumav Commerce OÜ</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="LumavCommerce"><h2>Lumav Commerce</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Netgroup"><h2>Net Group</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="PowerUp"><h2>Power Up Fuel Cells OÜ</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="PowerUp"><h2>Power Up Fuel Cells</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="SEB"><h2>SEB Pank</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="SpinTEK"><h2>Spin TEK</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Statistikaamet"><h2>Statistikaamet</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Swedbank"><h2>Swedbank</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Telia"><h2>Telia</h2></button></li>
-				    <li><button onClick={(e) => click(e)} className="S"><h2>...</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="T" id='firstFade'><h2>...</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="U" id='secondFade'><h2>...</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="T"><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="U" id='firstFade'><h2>...</h2></button></li>
 				</ul>
 			</section>
 
