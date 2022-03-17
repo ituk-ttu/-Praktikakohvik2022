@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb37bfa0.css",
-    "main.js": "/static/js/main.7dbbf23b.js",
+    "main.css": "/static/css/main.fecfd3b5.css",
+    "main.js": "/static/js/main.592754a8.js",
     "static/js/787.25393b4e.chunk.js": "/static/js/787.25393b4e.chunk.js",
     "static/media/praktikakohvik2019.jpg": "/static/media/praktikakohvik2019.ee9bb563fd78b38b93d6.jpg",
     "static/media/PowerUp-logo.png": "/static/media/PowerUp-logo.711364d12aa37aa6c4d1.png",
@@ -27,6 +27,7 @@
     "static/media/A_dcash-logo.png": "/static/media/A_dcash-logo.073e6edc8cc9e7170e8a.png",
     "static/media/BaitPartner-logo.png": "/static/media/BaitPartner-logo.d130a0aeb753bb017b18.png",
     "static/media/Statistikaamet-logo.png": "/static/media/Statistikaamet-logo.28cd9a8ad2b99228f8ec.png",
+    "static/media/ADMInteractive-logo.png": "/static/media/ADMInteractive-logo.a672ebb276ab36cdbafd.png",
     "static/media/Agileworks-logo.png": "/static/media/Agileworks-logo.87c15799d32220ede45e.png",
     "static/media/SpinTEK-logo.png": "/static/media/SpinTEK-logo.d20341cb3e019fb26a04.png",
     "static/media/SEB-logo.png": "/static/media/SEB-logo.9b2b08b499ebfb03b642.png",
@@ -40,12 +41,12 @@
     "static/media/facebook.svg": "/static/media/facebook.8d7f8611e0ec8ad941617479d7498bce.svg",
     "static/media/ituk.svg": "/static/media/ituk.3137fddb03fcd53502124b55072a5969.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.74cbbebd84c14464737336f23c4d96a4.svg",
-    "main.fb37bfa0.css.map": "/static/css/main.fb37bfa0.css.map",
-    "main.7dbbf23b.js.map": "/static/js/main.7dbbf23b.js.map",
+    "main.fecfd3b5.css.map": "/static/css/main.fecfd3b5.css.map",
+    "main.592754a8.js.map": "/static/js/main.592754a8.js.map",
     "787.25393b4e.chunk.js.map": "/static/js/787.25393b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb37bfa0.css",
-    "static/js/main.7dbbf23b.js"
+    "static/css/main.fecfd3b5.css",
+    "static/js/main.592754a8.js"
   ]
 }
