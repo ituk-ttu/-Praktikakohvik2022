@@ -23,7 +23,7 @@ const Firms = () => {
 				<h3>{language.firms.firmsTitle}</h3>
 				<ul>
 					<li><button onClick={(e) => click(e)} className="A_dcash"><h2>Adcash</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="ADMInteractive" id='Added'><h2>ADM Interactive ({language.firms.new})</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="ADMInteractive"><h2>ADM Interactive</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Agileworks"><h2>Agileworks</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="ArtecDesign"><h2>Artec Design</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="BaitPartner"><h2>Bait Partner</h2></button></li>
@@ -44,8 +44,8 @@ const Firms = () => {
 					<li><button onClick={(e) => click(e)} className="Statistikaamet"><h2>Statistikaamet</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Swedbank"><h2>Swedbank</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Telia"><h2>Telia</h2></button></li>
-				    <li><button onClick={(e) => click(e)} className="T"><h2>...</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="U" id='firstFade'><h2>...</h2></button></li>
+				    <li><button onClick={(e) => click(e)} className="TTJA" id='Added'><h2>Tarbijakaitse ja Tehnilise Järelvalve Amet ({language.firms.new})</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="V" id='firstFade'><h2>...</h2></button></li>
 				</ul>
 			</section>
 

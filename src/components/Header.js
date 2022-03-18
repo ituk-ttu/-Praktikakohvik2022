@@ -7,13 +7,13 @@ import { srcContext } from "../SrcContext.js";
 const Header = () => {
     const { language } = useContext(srcContext);
     const dateNow = new Date().getTime();
-    const countDateInfo = new Date('March 17, 2022 20:00:00');
+    const countDateInfo = new Date('March 18, 2022 20:00:00');
 
     return (
         <header>
             <div style={countDateInfo - dateNow < 0 ? {visibility: 'hidden'} : {visibility: 'visible'}} className="info">
                 <img src={infoSign} alt='info sign'></img>
-                <h2>{language.header.info}</h2>
+                <h2>{language.header.info.replaceAll('\\n', '\n')}</h2>
             </div>
             <h4>PRAKTIKA-<br/>KOHVIK</h4>
             <h3>{language.header.date}</h3>
