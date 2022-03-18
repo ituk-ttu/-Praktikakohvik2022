@@ -46,6 +46,7 @@ const Firms = () => {
 					<li><button onClick={(e) => click(e)} className="Telia"><h2>Telia</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="TTJA" id='Added'><h2>Tarbijakaitse ja Tehnilise Järelvalve Amet ({language.firms.new})</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="V" id='firstFade'><h2>...</h2></button></li>
+					<li><button onClick={(e) => click(e)} className="W" id='secondFade'><h2>...</h2></button></li>
 				</ul>
 			</section>
 
