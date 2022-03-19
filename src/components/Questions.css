@@ -1,4 +1,8 @@
-.boxedd img {
+.container-questions {
+    white-space: pre-wrap;
+}
+
+.container-questions img {
     width: 30%;
 	height: auto;
 	float: right;
@@ -7,14 +11,14 @@
 	padding-left: 50px;
 }
 
-.boxedd::after{
+.container-questions::after{
 	content: "";
 	clear: both;
 	display: table;
 }
 
 @media all and (max-width: 983px){
-    .boxedd img{
+    .container-questions img{
 		width: 0;
 	}
 }

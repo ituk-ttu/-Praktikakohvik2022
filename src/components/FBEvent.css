@@ -16,7 +16,8 @@
 }
 
 .container-fb a:hover{
-    width: 61%;
+    transform: scale(1);
+    /*width: 61%;*/
     max-width: 515px;
 }
 

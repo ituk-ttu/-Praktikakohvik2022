@@ -9,7 +9,7 @@ const FBEvent = () => {
     return (
         <div className='container-fb'>
             <h3>{language.FBlink.title}</h3>
-            <a href="https://fb.me/e/2bJD7nJvv" target="_blank"><img src={FBEventImage} alt='FB link'></img></a>
+            <a href="https://fb.me/e/2bJD7nJvv" rel="noreferrer" target="_blank"><img src={FBEventImage} alt='FB link'></img></a>
         </div>
     )
 };
