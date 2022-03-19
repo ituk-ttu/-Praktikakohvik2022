@@ -68,6 +68,8 @@ ul h2, ul button, ul{
 	font-size: 19px;
 	padding-bottom: 50px;
 	white-space: pre-wrap;
+	word-wrap:break-word;
+	text-overflow: ellipsis; 
 }
 
 .image-container{
