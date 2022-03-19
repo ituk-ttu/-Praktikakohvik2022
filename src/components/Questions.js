@@ -10,9 +10,7 @@ const Questions = () => {
         <div className='container-questions'>
             <img src={praktikakohvik2019} alt="praktikakohvik 2019"/>
 			<h3>{language.questions.questionTitle}</h3>
-			<h2>
-				<br/>{language.questions.questionContent.replaceAll('\\n', '\n')}
-			</h2>
+			<h2>{language.questions.questionContent.replaceAll('\\n', '\n')}</h2>
         </div>
     )
 };
