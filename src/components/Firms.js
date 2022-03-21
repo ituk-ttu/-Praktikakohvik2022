@@ -31,7 +31,6 @@ const Firms = () => {
 				    <li><button onClick={(e) => click(e)} className="Devtailor"><h2>Devtailor</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="EestiEnergia"><h2>Eesti Energia</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Eleport"><h2>Eleport</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="Finestmedia"><h2>Finestmedia</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Finnair"><h2>Finnair Business Services</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="Fujitsu"><h2>Fujitsu Estonia</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="ITKasutajatugi"><h2>TalTech IT Kasutajatugi</h2></button></li>
@@ -67,14 +66,13 @@ const Firms = () => {
 							<li style={{gridColumn: "6", gridRow: "9"}}><button onClick={(e) => click(e)} className="Statistikaamet">STA</button></li>
 							<li style={{gridColumn: "5", gridRow: "9"}}><button onClick={(e) => click(e)} className="SpinTEK">SPI</button></li>
 							<li style={{gridColumn: "4", gridRow: "9"}}><button onClick={(e) => click(e)} className="SEB">SEB</button></li>
-							<li style={{gridColumn: "3", gridRow: "9"}}><button onClick={(e) => click(e)} className="PowerUp">POW</button></li>
-							<li style={{gridColumn: "2", gridRow: "6"}}><button onClick={(e) => click(e)} className="Netgroup">NET</button></li>
-							<li style={{gridColumn: "3", gridRow: "6"}}><button onClick={(e) => click(e)} className="LumavCommerce">LUM</button></li>
-							<li style={{gridColumn: "4", gridRow: "6"}}><button onClick={(e) => click(e)} className="Itestra">ITE</button></li>
-							<li style={{gridColumn: "5", gridRow: "6"}}><button onClick={(e) => click(e)} className="ITKasutajatugi">ITK</button></li>
-							<li style={{gridColumn: "6", gridRow: "6"}}><button onClick={(e) => click(e)} className="Fujitsu">FUJ</button></li>
-							<li style={{gridColumn: "6", gridRow: "5"}}><button onClick={(e) => click(e)} className="Finnair">FIN</button></li>
-							<li style={{gridColumn: "5", gridRow: "5"}}><button onClick={(e) => click(e)} className="Finestmedia">FIM</button></li>
+							<li style={{gridColumn: "2", gridRow: "6"}}><button onClick={(e) => click(e)} className="PowerUp">POW</button></li>
+							<li style={{gridColumn: "3", gridRow: "6"}}><button onClick={(e) => click(e)} className="Netgroup">NET</button></li>
+							<li style={{gridColumn: "4", gridRow: "6"}}><button onClick={(e) => click(e)} className="LumavCommerce">LUM</button></li>
+							<li style={{gridColumn: "5", gridRow: "6"}}><button onClick={(e) => click(e)} className="Itestra">ITE</button></li>
+							<li style={{gridColumn: "6", gridRow: "6"}}><button onClick={(e) => click(e)} className="ITKasutajatugi">ITK</button></li>
+							<li style={{gridColumn: "6", gridRow: "5"}}><button onClick={(e) => click(e)} className="Fujitsu">FUJ</button></li>
+							<li style={{gridColumn: "5", gridRow: "5"}}><button onClick={(e) => click(e)} className="Finnair">FIN</button></li>
 							<li style={{gridColumn: "4", gridRow: "5"}}><button onClick={(e) => click(e)} className="Eleport">ELE</button></li>
 							<li style={{gridColumn: "3", gridRow: "5"}}><button onClick={(e) => click(e)} className="EestiEnergia">EES</button></li>
 							<li style={{gridColumn: "2", gridRow: "5"}}><button onClick={(e) => click(e)} className="Devtailor">DEV</button></li>
