@@ -40,7 +40,6 @@ const Firms = () => {
 					<li><button onClick={(e) => click(e)} className="PowerUp"><h2>PowerUP</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="SEB"><h2>SEB Pank</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="SpinTEK"><h2>Spin TEK AS</h2></button></li>
-					<li><button onClick={(e) => click(e)} className="Statistikaamet"><h2>Statistikaamet</h2></button></li>
 				    <li><button onClick={(e) => click(e)} className="Swedbank"><h2>Swedbank</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="TTJA"><h2>Tarbijakaitse ja Tehnilise Järelvalve Amet</h2></button></li>
 					<li><button onClick={(e) => click(e)} className="TeadusarvutusteKeskus"><h2>Teadusarvutuste Keskus</h2></button></li>
@@ -63,19 +62,18 @@ const Firms = () => {
 							<li style={{gridColumn: "8", gridRow: "5 / span 2"}}><button onClick={(e) => click(e)} className="TeadusarvutusteKeskus"><h5 id='sideways'>TEA</h5></button></li>
 							<li style={{gridColumn: "8", gridRow: "7 / span 2"}}><button onClick={(e) => click(e)} className="TTJA"><h5 id='sideways'>TTJ</h5></button></li>
 							<li style={{gridColumn: "7", gridRow: "9"}}><button onClick={(e) => click(e)} className="Swedbank">SWE</button></li>
-							<li style={{gridColumn: "6", gridRow: "9"}}><button onClick={(e) => click(e)} className="Statistikaamet">STA</button></li>
-							<li style={{gridColumn: "5", gridRow: "9"}}><button onClick={(e) => click(e)} className="SpinTEK">SPI</button></li>
+							<li style={{gridColumn: "6", gridRow: "9"}}><button onClick={(e) => click(e)} className="SpinTEK">SPI</button></li>
+							<li style={{gridColumn: "5", gridRow: "9"}}><button onClick={(e) => click(e)} className="PowerUp">POW</button></li>
 							<li style={{gridColumn: "4", gridRow: "9"}}><button onClick={(e) => click(e)} className="SEB">SEB</button></li>
-							<li style={{gridColumn: "2", gridRow: "6"}}><button onClick={(e) => click(e)} className="PowerUp">POW</button></li>
-							<li style={{gridColumn: "3", gridRow: "6"}}><button onClick={(e) => click(e)} className="Netgroup">NET</button></li>
-							<li style={{gridColumn: "4", gridRow: "6"}}><button onClick={(e) => click(e)} className="LumavCommerce">LUM</button></li>
-							<li style={{gridColumn: "5", gridRow: "6"}}><button onClick={(e) => click(e)} className="Itestra">ITE</button></li>
-							<li style={{gridColumn: "6", gridRow: "6"}}><button onClick={(e) => click(e)} className="ITKasutajatugi">ITK</button></li>
-							<li style={{gridColumn: "6", gridRow: "5"}}><button onClick={(e) => click(e)} className="Fujitsu">FUJ</button></li>
-							<li style={{gridColumn: "5", gridRow: "5"}}><button onClick={(e) => click(e)} className="Finnair">FIN</button></li>
-							<li style={{gridColumn: "4", gridRow: "5"}}><button onClick={(e) => click(e)} className="Eleport">ELE</button></li>
-							<li style={{gridColumn: "3", gridRow: "5"}}><button onClick={(e) => click(e)} className="EestiEnergia">EES</button></li>
-							<li style={{gridColumn: "2", gridRow: "5"}}><button onClick={(e) => click(e)} className="Devtailor">DEV</button></li>
+							<li style={{gridColumn: "3", gridRow: "9"}}><button onClick={(e) => click(e)} className="Netgroup">NET</button></li>
+							<li style={{gridColumn: "3", gridRow: "6"}}><button onClick={(e) => click(e)} className="LumavCommerce">LUM</button></li>
+							<li style={{gridColumn: "4", gridRow: "6"}}><button onClick={(e) => click(e)} className="Itestra">ITE</button></li>
+							<li style={{gridColumn: "5", gridRow: "6"}}><button onClick={(e) => click(e)} className="ITKasutajatugi">ITK</button></li>
+							<li style={{gridColumn: "6", gridRow: "6"}}><button onClick={(e) => click(e)} className="Fujitsu">FUJ</button></li>
+							<li style={{gridColumn: "6", gridRow: "5"}}><button onClick={(e) => click(e)} className="Finnair">FIN</button></li>
+							<li style={{gridColumn: "5", gridRow: "5"}}><button onClick={(e) => click(e)} className="Eleport">ELE</button></li>
+							<li style={{gridColumn: "4", gridRow: "5"}}><button onClick={(e) => click(e)} className="EestiEnergia">EES</button></li>
+							<li style={{gridColumn: "3", gridRow: "5"}}><button onClick={(e) => click(e)} className="Devtailor">DEV</button></li>
 						</div>
 					</div>
 				</section>
