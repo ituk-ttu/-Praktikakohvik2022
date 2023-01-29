@@ -1,11 +1,11 @@
 .container-firms{
 	width: 100%;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	margin: 60px 0;
 	overflow: hidden;
+	padding: 0 50px;
 }
 
-.firms-list{
+.firms-list {
 	float: left;
 	max-width: 222px;
 	margin: 0;
@@ -21,46 +21,40 @@
 	background-color: transparent;
 	border: none;
 	width: 100%;
+	padding: 1px 2px;
 }
 
-.firms-list h2{
+.firms-list .active{
+	background-color: #FF0063;
+}
+
+.firms-list h3 {
 	text-align: left;
+	font-size: 17px;
 	font-weight: 200;
 	border-bottom: 1px solid #FF0063;
 }
 
-.firms-list h3{
+.firms-list h2{
 	padding-left: 10px;
 	padding-right: 0;
 }
 
-ul h2, ul button, ul{
+.firms-list ul {
 	list-style-type: none;
 	font-weight: bold;
 	padding: 0;
-	padding-left: 4px;
 }
 
-.firms-info{
-	grid-column: 1;
-	grid-row: 1;
-	margin-left: 22px;
-	margin-right: 5px;
-	height: min-content;
+#f2 {
+	opacity: 0.5;
 }
 
-.firms-info h2{
-	padding-left: 2px;
-	padding-right: 2px;
-	text-align: left;
-	font-size: 19px;
-	padding-bottom: 50px;
-	white-space: pre-wrap;
-	word-wrap:break-word;
-	text-overflow: ellipsis; 
+#f3 {
+	opacity: 0.25;
 }
 
-.image-container{
+.image-container {
 	border-radius: 7px;
 	margin-left: auto;
     margin-right: auto;
@@ -78,44 +72,37 @@ ul h2, ul button, ul{
 	justify-content: center;
 }
 
-.firms-info img{
-	max-width:100%;
-	max-height:100%;
-	height: auto;
-}
-
-#sideways{
+#sideways {
 	transform: rotate(90deg);
 	font-weight: 600;
 	font-size: 1.2vw;
 }
 
-#sideways:hover{
+#sideways:hover {
 	color: #FF0063;
 	transition: 0.2s;
 }
 
-.firms-map{
+.firms-map {
 	grid-column: 2;
 	grid-row: 1;
 	position: relative;
 	height: min-content;
 }
 
-.firms-map img{
-	position: absolute;
+.firms-map img {
 	width: 100%;
 	height: auto;
 }
 
-.aspect-ratio-box{
+.aspect-ratio-box {
 	height: 0;
 	overflow: hidden;
 	padding-top: calc(68/81*100%);
 	position: relative;
 }
 
-.container-map{
+.container-map {
 	list-style-type: none;
 	top: 0;
 	left: 0;
@@ -127,19 +114,39 @@ ul h2, ul button, ul{
 	grid-template-rows: 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
 }
 
-.container-grid{
+.container-grid {
 	display: grid;
-	grid-template-columns: 50% auto;
+	grid-template-columns: 200px 45% auto;
+	grid-template-rows: 70px auto;
 	line-height: 1.1;
+	align-items: start;
 }
 
-.container-map li{
+#firms-title {
+	grid-column: 1;
+	grid-row: 1;
+}
+.firms-list {
+	grid-column: 1;
+	grid-row: 2;
+}
+.firms-info {
+	margin-left: 15px;
+	grid-column: 2;
+	grid-row: 1 / span 2;
+}
+.firms-map {
+	grid-column: 3;
+	grid-row: 1 / span 2;
+}
+
+.container-map li {
 	padding: 1px;
 	display: flex;
 	flex: 1;
 }
 
-.container-map button{
+.container-map button {
 	padding: 0;
 	cursor: pointer;
 	font-weight: 600;
@@ -156,60 +163,79 @@ ul h2, ul button, ul{
 	background-color: #FF0063;
 }
 
-.container-map button:hover{
+.container-map button:hover {
 	background-color: white;
 	color: #FF0063;
 	transition: 0.2s;
 }
 
-.container-map h2:not(#sideways){
+.container-map h3:not(#sideways) {
 	text-align: center;
 	color: white;
 }
 
-@media all and (max-width: 983px){
-	.firms-info{
-		margin-left: 15px;
+@media all and (max-width: 983px) {
+	.container-firms{
+		padding: 0;
+	}
+
+	.container-grid {
+		grid-template-columns: 150px 50% auto;
+		grid-template-rows: auto auto;
+	}
+	#firms-title {
+		grid-column: 1 / span 3;
+		grid-row: 1;
+	}
+	.firms-list {
+		grid-column: 1;
+		grid-row: 2;
+	}
+	.firms-info {
+		grid-column: 2;
+		grid-row: 2;
+	}
+	.firms-map {
+		grid-column: 3;
+		grid-row: 2;
 	}
 }
 
-@media all and (max-width: 700px){
+@media all and (max-width: 700px) {
 	.firms {
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
 
-	.firms-list{
+	.firms-list {
 		max-width: 100px;
 	}
 
-	.image-container{
-		width: 80%;
-		max-width: 250px;
-		aspect-ratio: 3.5 / 1;
+	.firms-list h3 {
+		font-size: 12px;
 	}
 
-	.firms-info{
+	.container-grid {
+		grid-template-columns: 100px auto;
+		grid-template-rows: auto auto auto auto auto;
+	}
+	#firms-title {
+		grid-column: 1 / span 2;
+		grid-row: 1;
+	}
+	.firms-list {
+		grid-column: 1;
+		grid-row: 2 / span 3;
+	}
+	.firms-info {
 		margin-top: 0px;
 		padding-top: 10px;
-		margin-left: 5px;
-		grid-column: 1;
+		margin-left: 5px !important;
+		grid-column: 2;
+		grid-row: 3;
+	}
+	.firms-map {
+		grid-column: 2;
 		grid-row: 2;
-	}
-
-	.firms-info h2{
-		text-align: left;
-		font-size: 15px;
-	}
-
-	.firms-map{
-		grid-column: 1;
-		grid-row: 1;
-		width: 100%;
-	}
-
-	.container-grid{
-		display: flex;
-		flex-direction: column;
 	}
 }

@@ -1,5 +1,5 @@
 import './Questions.css';
-import praktikakohvik2019 from '../img/png/praktikakohvik2019.jpg';
+import praktikakohvik2022 from '../img/png/PK2022_1.jpg';
 import { useContext } from "react";
 import { srcContext } from "../SrcContext.js";
 
@@ -8,9 +8,20 @@ const Questions = () => {
 
     return (
         <div className='container-questions'>
-            <img src={praktikakohvik2019} alt="praktikakohvik 2019"/>
-			<h3>{language.questions.questionTitle}</h3>
-			<h2>{language.questions.questionContent.replaceAll('\\n', '\n')}</h2>
+            <div className='container-questions text'>
+                <h2>{language.questions.questionTitle}</h2>
+                <p>{language.questions.questionContent.replaceAll('\\n', '\n')}</p>
+                <ul>
+                    {
+                        language.questions.questions.map((q) => (
+                            <li key={q}>{q}</li>
+                        ))
+                    }
+                </ul>
+            </div>
+            <div className='container-questions image'>
+                <img src={praktikakohvik2022} alt="Praktikakohvik 2022"/>
+            </div>
         </div>
     )
 };
