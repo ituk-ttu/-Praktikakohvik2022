@@ -7,16 +7,17 @@ const day = hour * 24;
 
 const animateValue = (className, end, duration) => {
     if (end >= 100 || end <= 0) return;
-    var current = 0;
+    let startTimestamp = null;
     var obj = document.querySelectorAll(className);
-    var stepTime = Math.abs(Math.floor(duration / end));
-    var timer = setInterval(function() {
-        current += 1;
-        obj.forEach(element => element.innerText = current);
-        if (current === end) {
-            clearInterval(timer);
+    const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        obj.forEach(element => element.innerText =  Math.floor(progress * end));
+        if (progress < 1) {
+            window.requestAnimationFrame(step);
         }
-    }, stepTime);
+    };
+    window.requestAnimationFrame(step);
 }
 const countdown = () => {
     const now = new Date().getTime();
@@ -37,6 +38,7 @@ const countdown = () => {
     }
 }
 const myInterval = setInterval(countdown, 1000);
+
 export const animateCountdown = () => {
     const now = new Date().getTime();
     const gap = countDate - now;
