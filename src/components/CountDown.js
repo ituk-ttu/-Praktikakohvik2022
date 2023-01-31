@@ -1,4 +1,4 @@
-const countDate = new Date('2023-03-01 12:00:00');
+const countDate = new Date("2023-03-01T12:00:00");
 const animationDuration = 1000;
 const second = 1000;
 const minute = second * 60;
@@ -11,8 +11,10 @@ const animateValue = (className, end, duration) => {
     var obj = document.querySelectorAll(className);
     const step = (timestamp) => {
         if (!startTimestamp) startTimestamp = timestamp;
-        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-        obj.forEach(element => element.innerText =  Math.floor(progress * end));
+        const progress = Math.min(...[(timestamp - startTimestamp) / duration, 1]);
+        const text = Math.floor(progress * end);
+        if (isNaN(text) || text > end) return;
+        obj.forEach(element => element.innerText = text);
         if (progress < 1) {
             window.requestAnimationFrame(step);
         }
@@ -50,6 +52,6 @@ export const animateCountdown = () => {
     animateValue('.dayNr', dayRange, animationDuration);
     animateValue('.hourNr', hourRange, animationDuration);
     animateValue('.minuteNr', minuteRange, animationDuration);
-    animateValue('.secondNr', secondRange - animationDuration / 1000, animationDuration);
+    animateValue('.secondNr', Math.floor(secondRange - animationDuration / 1000), animationDuration);
     setTimeout(myInterval, animationDuration);
 }
