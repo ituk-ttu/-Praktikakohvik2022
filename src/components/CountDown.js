@@ -1,4 +1,4 @@
-const countDate = new Date("2023-03-01T12:00:00");
+const countDate = new Date("2023-03-01T12:00:00+02:00");
 const animationDuration = 1000;
 const second = 1000;
 const minute = second * 60;
