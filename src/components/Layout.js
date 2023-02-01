@@ -3,6 +3,7 @@ import Header from "./Header";
 import Navbar from "./Navbar";
 import Firms from './Firms';
 import About from './About';
+import FBEvent from './FBEvent';
 import Questions from './Questions';
 import Gallery from './Gallery';
 import Footer from './Footer';
@@ -27,6 +28,7 @@ function Layout() {
                     <div className='text-bg'></div>
                 </div>
                 <Gallery/>
+                <FBEvent/>
                 <Footer/>
             </div>
         </>
