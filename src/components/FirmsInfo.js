@@ -22,9 +22,9 @@ const FirmsInfo = ({ selectedFirm }) => {
 			<p className='firms-text'>
 				{
 					(value === 'et' 
-						? selectedFirm.estonianDescription 
-						: selectedFirm.englishDescription) 
-						?? language.firmList.Guide 
+						? selectedFirm.estonianDescription ?? selectedFirm.englishDescription
+						: selectedFirm.englishDescription ?? selectedFirm.estonianDescription) 
+						?? language.firmList.Guide
 				}
 			</p>
 		</>
