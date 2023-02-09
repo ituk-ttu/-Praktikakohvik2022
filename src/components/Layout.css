@@ -3,7 +3,7 @@ svg {
 	z-index: 5;
 }
 
-.container-main{
+.container-main {
 	height: 100%;
 	width: 80%;
 	max-width: 1300px;
@@ -38,7 +38,7 @@ svg {
 }
 
 @media all and (max-width: 900px){
-	.container-main{
+	.container-main {
 		width: auto;
 		margin: 0;
 		padding: 0 10px;

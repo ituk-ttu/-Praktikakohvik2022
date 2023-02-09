@@ -51,7 +51,7 @@ nav .container-countdown h1 {
 }
 
 @media all and (max-width: 900px){
-	.container-nav img{
+	.container-nav img {
 		left: auto;
 		right: 20px;
 	}
@@ -71,7 +71,7 @@ nav .container-countdown h1 {
 		padding-bottom: 1px;
 	}
 
-	.container-nav img{
+	.container-nav img {
 		top: 17px;
 	}
 

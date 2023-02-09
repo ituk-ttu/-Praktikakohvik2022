@@ -77,7 +77,7 @@ header {
 	border-bottom-color: #FF0063;
 }
 
-.countdown .hourNr{
+.countdown .hourNr {
 	color: #fc3b85;
 }
 
@@ -93,8 +93,8 @@ header {
 	border-bottom-color: #ff97bf;
 }
 
-@media all and (max-width: 700px){
-    #praktikakohvik_logo{
+@media all and (max-width: 700px) {
+    #praktikakohvik_logo {
 		width: 300px;
 		height: auto;
 		right: 15px;
@@ -118,7 +118,7 @@ header {
 		height: 100%;
 	}
 
-	.countdown div{
+	.countdown div {
 		width: 56px;
 		height: 56px;
 		box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.521);
