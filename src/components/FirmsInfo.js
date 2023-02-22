@@ -13,7 +13,8 @@ const FirmsInfo = ({ selectedFirm }) => {
 					style={ imageLoading ? { display: 'block' } : { display: 'none' } } 
 					src={require("../img/png/placeholder.png")} alt="firmsLogo"/>
 				<img
-					src={'https://pkapi.onrender.com/api/firms/' + selectedFirm.id + '/image/1'}
+					// src={'https://pkapi.onrender.com/api/firms/' + selectedFirm.id + '/image/1'}
+					src={'https://localhost:7086/api/firms/' + selectedFirm.id + '/image/1'}
 					style={ imageLoading ? { display: 'none' } : { display: 'block' } }
 					onLoad={() => setImageLoading(false) }
 					alt="firmsLogo"
