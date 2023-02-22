@@ -39,7 +39,7 @@ const Firms = () => {
 										<h3>{firm.name}</h3>
 									</button>
 								</li>
-							))
+							))						
 						}
 					</ul>
 				</section>
