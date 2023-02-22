@@ -41,9 +41,6 @@ const Firms = () => {
 								</li>
 							))
 						}
-						<li><button><h3>...</h3></button></li>
-						<li id='f2'><button><h3>...</h3></button></li>
-						<li id='f3'><button><h3>...</h3></button></li>
 					</ul>
 				</section>
 
