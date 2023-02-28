@@ -1,15 +1,16 @@
 import './FirmsMap.css';
 import { useContext, useEffect } from "react";
 import { srcContext } from "../SrcContext.js";
+import aulaEmpty from '../img/png/aula_empty.png';
+import aulaFilled from '../img/png/aula_filled.png';
+import hallEmpty from '../img/png/hall_empty.png';
+import hallFilled from '../img/png/hall_filled.png';
 
 const FirmsMap = ({ selectedFirm, firms, clickFunction }) => {
-    const { language } = useContext(srcContext);
+    const { value } = useContext(srcContext);
 
 	useEffect(() => {
-		preloadImages("../img/png/aula_empty.png");
-		preloadImages("../img/png/aula_filled.png");
-		preloadImages("../img/png/hall_empty.png");
-		preloadImages("../img/png/hall_filled.png");
+		preloadImages([ aulaEmpty, aulaFilled, hallEmpty, hallFilled ]);
     }, []);
 
     return (
@@ -20,8 +21,8 @@ const FirmsMap = ({ selectedFirm, firms, clickFunction }) => {
 					firms.filter(function(firm) {
 							return firm.gridMapColumn != null || firm.gridMapRow != null
 						}).length === 0 
-						? require("../img/png/" + language.firms.map + "_empty.png")
-						: require("../img/png/" + language.firms.map + "_filled.png")
+						? (value === 'et' ? aulaEmpty : hallEmpty)
+						: (value === 'et' ? aulaFilled : hallFilled)
 				} 
 				alt="Aula"
 			/>
@@ -53,8 +54,11 @@ const FirmsMap = ({ selectedFirm, firms, clickFunction }) => {
 export default FirmsMap;
 
 let images = []
-function preloadImages(src) {
-	let img = new Image()
-	img.src = src;
-	images.push(img)
+const preloadImages = async (sources) => {
+	const promises = sources.map(i => preloadImage(i))
+	await Promise.all(promises)
+}
+
+function preloadImage(src) {
+	images.push(new Image().src = src);
 }
