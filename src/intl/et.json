@@ -38,7 +38,8 @@
         "firmList": {
             "Loading": "Laeb",
             "Apology": "Vabandame pika ooteaja pärast!",
-            "Guide": "Vajuta firma nimele, et näha infot",
+            "Guide": "Vajuta firma nimele, et näha nende infot",
+            "GuideMap": "Vajuta firma nimele või kaardil olevale lauale, et näha nende infot",
             "Undefined": "Kuulutame peagi välja ettevõtted..."
         }
     },
@@ -81,7 +82,8 @@
         "firmList": {
             "Loading": "Loading",
             "Apology": "We Apologize for the long wait time!",
-            "Guide": "Press on a firms name to view info",
+            "Guide": "Press on a firm's name to view their info",
+            "GuideMap": "Press on a firm's name or a table on the map to view their info",
             "Undefined": "Announcing the firms soon..."
         }
     }

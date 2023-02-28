@@ -43,7 +43,7 @@ nav .container-countdown h1 {
 .container-nav img {
 	cursor: pointer;
 	position: fixed;
-	top: 15px;
+	top: 14px;
 	left: 25px;
 	z-index: 101;
 	width: 30px;

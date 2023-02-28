@@ -11,6 +11,7 @@
 .info-placeholder p {
 	text-align: center;
 	font-size: 20px;
+	padding: 0px 70px;
 }
 
 .info-placeholder h3 {
@@ -22,5 +23,8 @@
 @media all and (max-width: 700px) {
 	.firms-info .info-placeholder {
 		margin-top: 0;
+	}
+	.info-placeholder p {
+		padding: 0;
 	}
 }

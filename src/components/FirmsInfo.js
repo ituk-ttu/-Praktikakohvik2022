@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 import { srcContext } from "../SrcContext.js";
 
 const FirmsInfo = ({ selectedFirm }) => {
-    const { value, language } = useContext(srcContext);
+    const { value } = useContext(srcContext);
     const [ imageLoading, setImageLoading] = useState(true);
 
     return (
@@ -23,8 +23,7 @@ const FirmsInfo = ({ selectedFirm }) => {
 				{
 					(value === 'et' 
 						? selectedFirm.estonianDescription ?? selectedFirm.englishDescription
-						: selectedFirm.englishDescription ?? selectedFirm.estonianDescription) 
-						?? language.firmList.Guide
+						: selectedFirm.englishDescription ?? selectedFirm.estonianDescription)
 				}
 			</p>
 		</>

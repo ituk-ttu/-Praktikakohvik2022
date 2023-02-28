@@ -7,7 +7,11 @@ const Navbar = () => {
 
     return (
         <div className='container-nav'>
-            <img src={require("../img/svg/" + value + "_lipp.svg")} alt="flag" onClick={ () => (value === 'en') ? setValue('et') : setValue('en') }></img>
+            <img
+                src={require("../img/svg/" + value + "_lipp.svg")} 
+                onClick={ () => (value === 'en') ? setValue('et') : setValue('en') }
+                alt="flag" 
+            />
             <nav>
                 <h1 id='nav-header'>PRAKTIKAKOHVIK</h1>
                 <div className="container-countdown">

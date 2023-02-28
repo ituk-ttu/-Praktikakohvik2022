@@ -55,7 +55,7 @@ const Firms = () => {
 				<section className="firms-info">
 					{ 
 						!clicked
-							? <FirmsInfoPlaceholder isLoading={loading} firmsCount={firms.length} />
+							? <FirmsInfoPlaceholder isLoading={loading} firmsCount={firms.length} mapStatus={mapStatus} />
 							: <FirmsInfo selectedFirm={selectedFirm} />  
 					}
 				</section>

@@ -2,7 +2,7 @@ import './FirmsInfoPlaceholder.css';
 import { useContext, useState, useEffect } from "react";
 import { srcContext } from "../SrcContext.js";
 
-const FirmsInfoPlaceholder = ({ isLoading, firmsCount }) => {
+const FirmsInfoPlaceholder = ({ isLoading, firmsCount, mapStatus }) => {
     const { language } = useContext(srcContext);
     const [ loadingText, setLoadingText ] = useState('');
     const [ totalIntervalTime, setTotalIntervalTime] = useState(0);
@@ -31,7 +31,7 @@ const FirmsInfoPlaceholder = ({ isLoading, firmsCount }) => {
 					?	language.firmList.Loading + loadingText
 					:	firmsCount === 0
 						? 	language.firmList.Undefined
-						:	language.firmList.Guide 
+						:	(mapStatus ? language.firmList.GuideMap : language.firmList.Guide)
 				}
 			</p>
 			<h3>{totalIntervalTime >= 15000 ? language.firmList.Apology : ''}</h3>
