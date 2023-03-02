@@ -67,7 +67,7 @@ const Firms = () => {
 export default Firms;
 
 const loadFirms = async (setFirms, setMapStatus, setLoading) => {
-	const response = await fetch('https://pkapi.onrender.com')
+	const response = await fetch('https://pkapi.onrender.com/api/firms')
 
 	if (!response.ok) {
 		setLoading(false)
