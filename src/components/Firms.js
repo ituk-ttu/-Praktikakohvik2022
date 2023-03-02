@@ -67,15 +67,22 @@ const Firms = () => {
 export default Firms;
 
 const loadFirms = async (setFirms, setMapStatus, setLoading) => {
-	const response = await fetch('https://pkapi.onrender.com/api/firms')
-	const data = await response.json()
+	const response = await fetch('https://pkapi.onrender.com')
 
-	if (data) {
-		setFirms(data.firms)
-		setMapStatus(data.displayMap)
+	if (!response.ok) {
 		setLoading(false)
-		const promises = data.firms.map(f => preloadImages(f.id))
-	 	await Promise.all(promises)
+	}
+	else
+	{
+		const data = await response.json()
+		if (data)
+		{
+			setFirms(data.firms)
+			setMapStatus(data.displayMap)
+			setLoading(false)
+			const promises = data.firms.map(f => preloadImages(f.id))
+			await Promise.all(promises)
+		}
 	}
 }
 
