@@ -1,0 +1,41 @@
+{
+    "countDown": {
+        "day": "DAYS",
+        "hour": "HOURS",
+        "minute": "MINUTES",
+        "second": "SECONDS"
+    },
+    "header": {
+        "info": "Firms' placement is now visible!",
+        "date": "12. MARCH | 12:00 - 16:00 TalTech assembly hall"
+    },
+    "about": {
+        "aboutTitle": "ABOUT-EVENT",
+        "aboutContent": "Internship Café is an information day for TalTech students, where the best local and international companies' representatives and future interns meet. Those interested will have the opportunity to ask specialists about their job and get to know their potential employers.\nPS! Internship Café is primarily aimed at IT students, but students from other faculties can also find something of interest. The event is organized by The Student Council of the School of IT together with the IT faculty."
+    },
+    "firms":{
+        "firmsTitle": "PARTICIPATING COMPANIES",
+        "map": "hall",
+        "new": "New!"
+    },
+    "questions": {
+        "questionTitle": "WHAT TO ASK?",
+        "questionContent": "Here are some examples of questions to ask employers:",
+        "question1": "What skills are required to apply for a position?",
+        "question2": "What technologies are used in the company?",
+        "question3": "What does the daily work of the office look like?",
+        "question4": "What is the workload?",
+        "question5": "How flexible is the schedule or workload when working as a student?",
+        "question6": "What are the self-development opportunities in the company? Are there any additional trainings offered?"
+    },
+    "FBlink":{
+        "title": "FACEBOOK EVENT"
+    },
+    "firmList": {
+        "Loading": "Loading",
+        "Apology": "We Apologize for the long wait time!",
+        "Guide": "Press on a firm's name to view their info",
+        "GuideMap": "Press on a firm's name or a table on the map to view their info",
+        "Undefined": "Announcing the firms soon..."
+    }
+}

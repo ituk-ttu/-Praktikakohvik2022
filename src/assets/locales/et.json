@@ -1,0 +1,41 @@
+{
+    "countDown": {
+        "day": "PÄEVA",
+        "hour": "TUNDI",
+        "minute": "MINUTIT",
+        "second": "SEKUNDIT"
+    },
+    "header": {
+        "info": "Firmade paigutus on nüüd olemas!",
+        "date": "12. MÄRTS | 12:00 - 16:00 TalTechi aula"
+    },
+    "about": {
+        "aboutTitle": "ÜRITUSEST",
+        "aboutContent": "Praktikakohvik on TalTechi tudengitele suunatud infopäev, kus kohtuvad parimate kohalike ja rahvusvaheliste ettevõtete esindajad ja tulevased praktikandid. Huvilistel on võimalus küsida spetsialistidelt nende tööd puudutavaid küsimusi ning lähemalt tutvuda oma potentsiaalsete tööandjatega.\nPS! Praktikakohvik on eelkõige suunatud IT-tudengitele, kuid ka teiste teaduskondade üliõpilased võivad leida enda jaoks midagi huvitavat. Üritust korraldab IT-teaduskonna üliõpilaskogu koostöös IT-teaduskonnaga.\n\n"
+    },
+    "firms":{
+        "firmsTitle": "OSALEVAD ETTEVÕTTED",
+        "map": "aula",
+        "new": "Uus!"
+    },
+    "questions": {
+        "questionTitle": "MIDA KÜSIDA?",
+        "questionContent": "Siin on mõned näited küsimustest, mida esitada tööandjatele:",
+        "question1": "Milliseid oskusi on vaja, et mingile kohale kandideerida?",
+        "question2": "Milliseid tehnoloogiad firmas kasutatakse?",
+        "question3": "Milline näeb välja kontori igapäev?",
+        "question4": "Milline on töökoormus?",
+        "question5": "Kui paindlik on tudengina tööl käimise juures graafik või koormus?",
+        "question6": "Millised arenemisvõimalused ettevõttes on? Kas pakutakse mingeid lisakoolitusi?"
+    },
+    "FBlink":{
+        "title": "FACEBOOKI ÜRITUS"
+    },
+    "firmList": {
+        "Loading": "Laeb",
+        "Apology": "Vabandame pika ooteaja pärast!",
+        "Guide": "Vajuta firma nimele, et näha nende infot",
+        "GuideMap": "Vajuta firma nimele või kaardil olevale lauale, et näha nende infot",
+        "Undefined": "Kuulutame peagi välja ettevõtted..."
+    }
+}
