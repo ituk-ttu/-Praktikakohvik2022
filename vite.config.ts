@@ -4,7 +4,6 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/pk-app/',
   plugins: [react(), VitePWA({
     includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.png'],
     manifest: {
