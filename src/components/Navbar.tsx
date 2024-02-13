@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <NavContainer>
             <img alt='flag' 
-                src={(i18n.language === 'en') ? enFlag : etFlag} 
+                src={(i18n.language === 'en') ? etFlag : enFlag} 
                 onClick={ () => (i18n.language === 'en') ? i18n.changeLanguage('et') : i18n.changeLanguage('en') }
             >
             </img>
