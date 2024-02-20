@@ -1,34 +1,30 @@
-import placeholder from '../assets/img/png/placeholder.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { baseAddress } from '../helpers/BaseAddress'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import { Firm } from '../models/Firm'
-import { useState } from 'react'
 
 const FirmsInfo = (firm: Firm) => {
-    const [ imageLoading, setImageLoading] = useState(true)
     const { t, i18n } = useTranslation()
 
     return (
 		<InfoContainer>
-			<div className={ imageLoading ? 'image-container loading' : 'image-container' }>
-				<img 
-					style={ imageLoading ? { display: 'block' } : { display: 'none' } } 
-					src={ placeholder } alt='Firms logo'/>
-				<img
-					src={ baseAddress + 'firms/' + firm.id + '/image/1' }
-					style={ imageLoading ? { display: 'none' } : { display: 'block' } }
-					onLoad={ () => setImageLoading(false) }
-					alt='Firms logo'
-				/>
-			</div>
-			<p className='firms-text'>
-				{
-					(i18n.language === 'et' 
-						? firm.estonianDescription ?? firm.englishDescription
-						: firm.englishDescription ?? firm.estonianDescription) 
-						?? t('firmList.Guide')
-				}
+			<div 
+                style={ { backgroundColor: firm.imageBackground, borderColor: firm.imageBackground } }
+                className={ 'image-container' }
+            >
+                <LazyLoadImage
+                    alt='Firms logo'
+                    effect='blur'
+                    src={ baseAddress + 'firms/' + firm.id + '/image/1' }
+                />
+            </div>
+			<p className='firms-text' dangerouslySetInnerHTML=
+                {{
+                    __html: (i18n.language === 'et' 
+                        ? firm.estonianDescription ?? firm.englishDescription
+                        : firm.englishDescription ?? firm.estonianDescription) ?? t('firmList.Guide')
+                }}>
 			</p>
 		</InfoContainer>
     )
@@ -64,18 +60,9 @@ const InfoContainer = styled.div`
         justify-content: center;
     }
 
-    .loading {
-        border-color: transparent;
-        animation: skeleton-loading 1s linear infinite alternate;
-    }
-
-    @keyframes skeleton-loading {
-        0% {
-            background-color: hsl(0, 0%, 76%);
-        }
-        100% {
-            background-color: hsl(0, 0%, 100%);
-        }
+    span {
+        height:0; 
+        min-height:100%;
     }
 
     img {

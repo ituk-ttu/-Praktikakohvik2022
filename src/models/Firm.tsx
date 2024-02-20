@@ -6,4 +6,5 @@ export interface Firm {
     gridMapColumn: number;
     estonianDescription: string;
     englishDescription: string;
+    imageBackground: string;
 }
