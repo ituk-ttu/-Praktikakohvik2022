@@ -624,7 +624,7 @@ Error generating stack: `+o.message+`
     span {
         height:0; 
         min-height:100%;
-        display: flex;
+        display: flex !important;
         align-items: center;
     }
 
@@ -634,15 +634,11 @@ Error generating stack: `+o.message+`
         height: auto;
     }
 
-    a:link, a:visited {
-        color: #ff6776;
-    }
-
-    a:hover {
+    a:link, a:visited, a:active {
         color: #ffd0d5;
     }
 
-    a:active {
+    a:hover {
         color: #ff6776;
     }
 
