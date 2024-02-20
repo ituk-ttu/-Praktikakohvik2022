@@ -63,12 +63,26 @@ const InfoContainer = styled.div`
     span {
         height:0; 
         min-height:100%;
+        display: flex;
+        align-items: center;
     }
 
     img {
         max-width: 100%;
         max-height: 100%;
         height: auto;
+    }
+
+    a:link, a:visited {
+        color: #ff6776;
+    }
+
+    a:hover {
+        color: #ffd0d5;
+    }
+
+    a:active {
+        color: #ff6776;
     }
 
     @media all and (max-width: 700px) {
