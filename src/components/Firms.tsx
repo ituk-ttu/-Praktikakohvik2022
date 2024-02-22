@@ -82,7 +82,7 @@ const Firms = () => {
 					{ 
 						!clicked
 							?   <FirmsInfoPlaceholder isLoading={loading} firmsCount={firms.length} mapStatus={mapStatus} />
-							:   <FirmsInfo {...selectedFirm!} />  
+							:   <FirmsInfo firm={selectedFirm!} allFirms={firms} />  
 					}
 				</section>
 			</div>

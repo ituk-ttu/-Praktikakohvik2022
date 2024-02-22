@@ -1,10 +1,9 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { baseAddress } from '../helpers/BaseAddress'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import { Firm } from '../models/Firm'
 
-const FirmsInfo = (firm: Firm) => {
+const FirmsInfo = ({firm, allFirms} : { firm: Firm, allFirms: Firm[]}) => {
     const { t, i18n } = useTranslation()
 
     return (
@@ -13,11 +12,16 @@ const FirmsInfo = (firm: Firm) => {
                 style={ { backgroundColor: firm.imageBackground, borderColor: firm.imageBackground } }
                 className={ 'image-container' }
             >
-                <LazyLoadImage
-                    alt='Firms logo'
-                    effect='blur'
-                    src={ baseAddress + 'firms/' + firm.id + '/image/1' }
-                />
+                {
+                    allFirms.map((f: Firm) => (
+                        <img
+                            key={ f.id }
+                            alt='Firms logo'
+                            style={ firm.id == f.id ? { opacity: '100' } : { opacity: '0' } }
+                            src={ baseAddress + 'firms/' + f.id + '/image/1' } 
+                        />
+                    ))
+                }
             </div>
 			<p className='firms-text' dangerouslySetInnerHTML=
                 {{
@@ -56,6 +60,7 @@ const InfoContainer = styled.div`
         border-color: white;
         background-color:  white;
         display: flex;
+        position: relative;
         align-items: center;
         justify-content: center;
     }
@@ -63,7 +68,7 @@ const InfoContainer = styled.div`
     span {
         height:0; 
         min-height:100%;
-        display: flex !important;
+        display: relative;
         align-items: center;
     }
 
@@ -71,6 +76,7 @@ const InfoContainer = styled.div`
         max-width: 100%;
         max-height: 100%;
         height: auto;
+        position: absolute;
     }
 
     a:link, a:visited, a:active {
