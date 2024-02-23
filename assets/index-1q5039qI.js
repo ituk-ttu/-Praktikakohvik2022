@@ -597,6 +597,19 @@ Error generating stack: `+o.message+`
         }
     }
 `,Na="https://pkapi.onrender.com/api/",D0=[];function sp(){return{preloadImages:t=>t.map(n=>D0.push(new Image().src=n))}}function A0(){return{getMethod:async t=>{try{const r=await(await fetch(Na+t,{headers:{"Content-Type":"application/json",Accept:"application/json"}})).json();if(r)return r}catch(n){throw new Error("Something went wrong: "+n)}}}}const M0=({firm:e,allFirms:t})=>{const{t:n,i18n:r}=xt();return x.jsxs(U0,{children:[x.jsx("div",{style:{backgroundColor:e.imageBackground,borderColor:e.imageBackground},className:"image-container",children:t.map(i=>x.jsx("img",{alt:"Firms logo",style:e.id==i.id?{opacity:"100"}:{opacity:"0"},src:Na+"firms/"+i.id+"/image/1"},i.id))}),x.jsx("p",{className:"firms-text",dangerouslySetInnerHTML:{__html:(r.language==="et"?e.estonianDescription??e.englishDescription:e.englishDescription??e.estonianDescription)??n("firmList.Guide")}})]})},U0=Ie.div`
+    .ql-align-justify {
+        text-align: justify;
+    }
+    .ql-align-right {
+        text-align: right;
+    }
+    .ql-align-center {
+        text-align: center;
+    }
+    .ql-align-left {
+        text-align: left;
+    }
+
     .firms-text {
         padding-left: 2px;
         padding-right: 2px;
