@@ -244,6 +244,7 @@ Error generating stack: `+o.message+`
     }
 
     .countdown div {
+        -webkit-transform-style: preserve-3d;
         border: 1px solid #ffffff48;
         background-color: rgba(255, 255, 255, 0.1);
         border-bottom: 4px solid #FFFFFF;
@@ -257,6 +258,8 @@ Error generating stack: `+o.message+`
     }
 
     .countdown div h1 {
+        -webkit-backface-visibility: hidden;
+        color: #ffffff; 
         padding-top: 25px;
         font-size: 45px;
         letter-spacing: normal;
