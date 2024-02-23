@@ -37,6 +37,19 @@ const FirmsInfo = ({firm, allFirms} : { firm: Firm, allFirms: Firm[]}) => {
 export default FirmsInfo;
 
 const InfoContainer = styled.div`
+    .ql-align-justify {
+        text-align: justify;
+    }
+    .ql-align-right {
+        text-align: right;
+    }
+    .ql-align-center {
+        text-align: center;
+    }
+    .ql-align-left {
+        text-align: left;
+    }
+
     .firms-text {
         padding-left: 2px;
         padding-right: 2px;
