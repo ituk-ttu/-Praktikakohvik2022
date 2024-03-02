@@ -93,11 +93,11 @@ const InfoContainer = styled.div`
     }
 
     a:link, a:visited, a:active {
-        color: #ffd0d5;
+        color: #0000ff;
     }
 
     a:hover {
-        color: #ff6776;
+        color: #4444ff;
     }
 
     @media all and (max-width: 700px) {
