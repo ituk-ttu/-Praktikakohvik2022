@@ -17,7 +17,7 @@ const FirmsInfo = ({firm, allFirms} : { firm: Firm, allFirms: Firm[]}) => {
                         <img
                             key={ f.id }
                             alt='Firms logo'
-                            style={ firm.id == f.id ? { opacity: '100' } : { opacity: '0' } }
+                            style={ firm.id == f.id ? { zIndex: '10', opacity: '100' } : { zIndex: '1', opacity: '0' } }
                             src={ baseAddress + 'firms/' + f.id + '/image/1' } 
                         />
                     ))
