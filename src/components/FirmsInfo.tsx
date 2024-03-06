@@ -1,10 +1,16 @@
 import { baseAddress } from '../helpers/BaseAddress'
 import { useTranslation } from 'react-i18next'
+import DOMPurify from 'isomorphic-dompurify'
 import styled from 'styled-components'
 import { Firm } from '../models/Firm'
 
 const FirmsInfo = ({firm, allFirms} : { firm: Firm, allFirms: Firm[]}) => {
     const { t, i18n } = useTranslation()
+    const sanitizedData = () => ({
+        __html: DOMPurify.sanitize((i18n.language === 'et' 
+            ? firm.estonianDescription ?? firm.englishDescription
+            : firm.englishDescription ?? firm.estonianDescription) ?? t('firmList.Guide'))
+    })
 
     return (
 		<InfoContainer>
@@ -23,13 +29,7 @@ const FirmsInfo = ({firm, allFirms} : { firm: Firm, allFirms: Firm[]}) => {
                     ))
                 }
             </div>
-			<p className='firms-text' dangerouslySetInnerHTML=
-                {{
-                    __html: (i18n.language === 'et' 
-                        ? firm.estonianDescription ?? firm.englishDescription
-                        : firm.englishDescription ?? firm.estonianDescription) ?? t('firmList.Guide')
-                }}>
-			</p>
+			<p className='firms-text' dangerouslySetInnerHTML={sanitizedData()} />
 		</InfoContainer>
     )
 };

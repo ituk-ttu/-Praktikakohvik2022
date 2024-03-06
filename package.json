@@ -29,6 +29,7 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "gh-pages": "^6.1.1",
     "i18next-browser-languagedetector": "^7.2.0",
+    "isomorphic-dompurify": "^2.4.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
     "vite-plugin-pwa": "^0.17.5"
